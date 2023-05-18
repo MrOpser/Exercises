@@ -10,7 +10,7 @@ Numerical Score  Letter Grade
 Tested values are all between 0 and 100. Theres is no need to check for negative values or values greater than 100.'''
 
 
-def get_grade(s1: str, s2: str, s3: str) -> int:
+def get_grade(s1: str, s2: str, s3: str) -> str:
     s_out_1 = int(s1)  # covert from str to int
     s_out_2 = int(s2)
     s_out_3 = int(s3)
